@@ -1,6 +1,20 @@
 # Mia Dugas vscode-extensions 10/2024
 
 #### Welcome to my meticulously curated collection of VSCode extensions—the Swiss Army knives of my development arsenal. Because let's face it, coding without the right tools is like trying to build IKEA furniture without instructions: frustrating, messy, and prone to questionable outcomes. These extensions save my day, they transform my humble editor into a powerhouse of productivity, efficiency, and, dare I say, elegance <chef's kiss> 👩🏽‍🍳.
+---
+### **Legend**
+
+- 🛠️ **Essential:** Core extensions that enhance primary functionalities.
+- 📝 **Optional:** Extensions for additional features or personal preference.
+- **⭐:** User Ratings from the VSCode Marketplace.
+  - ⭐⭐⭐⭐⭐: Excellent
+  - ⭐⭐⭐⭐: Very Good
+  - ⭐⭐⭐: Good
+  - ⭐⭐: Fair
+  - ⭐: Poor
+- **Extension Name:** Clickable links redirecting to the extension's marketplace page.
+- **Marketplace Link:** Direct URL to the extension's marketplace listing.
+
 
  ---
 

@@ -1,7 +1,8 @@
 # Mia Dugas vscode-extensions 10/2024
 
-Welcome to my meticulously curated collection of VSCode extensions—the Swiss Army knives of my development arsenal. Because let's face it, coding without the right tools is like trying to build IKEA furniture without instructions: frustrating, messy, and prone to questionable outcomes. These extensions are here to save the day, they transform my humble editor into a powerhouse of productivity, efficiency, and, dare I say, elegance <chef's kiss>.
+#### Welcome to my meticulously curated collection of VSCode extensions—the Swiss Army knives of my development arsenal. Because let's face it, coding without the right tools is like trying to build IKEA furniture without instructions: frustrating, messy, and prone to questionable outcomes. These extensions save my day, they transform my humble editor into a powerhouse of productivity, efficiency, and, dare I say, elegance <chef's kiss> 👩🏽‍🍳.
 
+ ---
 
 | #  | Extension Name                                                                                                  | Description                                                        | Publisher               | Marketplace Link                                                                                                   | ⭐⭐⭐⭐⭐ | Category      |
 |----|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------|--------|---------------|

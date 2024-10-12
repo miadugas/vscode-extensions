@@ -92,18 +92,25 @@ jobs:
         code --install-extension yoavbls.pretty-ts-errors
         code --install-extension zignd.html-css-class-completion
 
-    - name: List VSCode Extensions with Metadata
+    - name: List VSCode Extensions
+      run: code --list-extensions > extensions.txt
+
+    - name: Append Extensions to README.md
       run: |
-        echo "# My VSCode Extensions" > extensions.md
-        echo "" >> extensions.md
-        echo "| Extension Name | Publisher | Marketplace Link | Rating |" >> extensions.md
-        echo "| -------------- | --------- | ---------------- | ------ |" >> extensions.md
+        # Clear previous extensions section in README.md if it exists
+        sed -i '/# My VSCode Extensions/,$d' README.md || true
+        
+        # Append the extensions list to README.md with marketplace links
+        echo "" >> README.md
+        echo "# My VSCode Extensions" >> README.md
+        echo "" >> README.md
+        echo "| Extension Name | Publisher | Marketplace Link |" >> README.md
+        echo "| -------------- | --------- | ---------------- |" >> README.md
         while IFS= read -r extension; do
           publisher=$(echo "$extension" | awk -F '.' '{print $1}')
           extensionName=$(echo "$extension" | awk -F '.' '{print $2}')
           marketplaceLink="https://marketplace.visualstudio.com/items?itemName=$extension"
-          # This is just a placeholder for ratings, since ratings data isn't easily accessible directly
-          echo "| $extensionName | $publisher | [Link]($marketplaceLink) | ⭐⭐⭐⭐⭐ |" >> extensions.md
+          echo "| $extensionName | $publisher | [Marketplace Link]($marketplaceLink) |" >> README.md
         done < extensions.txt
 
     - name: Commit and push updated README.md
@@ -112,8 +119,9 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add extensions.md
-        git commit -m "Auto-update VSCode extensions list with links"
+        git add README.md
+        git commit -m "Auto-update VSCode extensions list with marketplace links"
         git push
+
 
 

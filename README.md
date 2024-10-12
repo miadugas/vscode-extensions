@@ -72,3 +72,8 @@
 
 | Extension Name | Publisher |
 | -------------- | --------- |
+
+# Mia VSCode Extensions
+
+| Extension Name | Publisher |
+| -------------- | --------- |

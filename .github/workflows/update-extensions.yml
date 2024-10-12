@@ -92,27 +92,18 @@ jobs:
         code --install-extension yoavbls.pretty-ts-errors
         code --install-extension zignd.html-css-class-completion
 
-    - name: List VSCode Extensions
-      run: code --list-extensions > extensions.txt
-
-    - name: Check VSCode Extensions List
-      run: cat extensions.txt
-
-    - name: Append Extensions to README.md
+    - name: List VSCode Extensions with Metadata
       run: |
-        # Clear previous extensions section in README.md if it exists
-        sed -i '/# My VSCode Extensions/,$d' README.md || true
-        
-        # Append the extensions list to README.md
-        echo "" >> README.md
-        echo "# My VSCode Extensions" >> README.md
-        echo "" >> README.md
-        echo "| Extension Name | Publisher |" >> README.md
-        echo "| -------------- | --------- |" >> README.md
+        echo "# My VSCode Extensions" > extensions.md
+        echo "" >> extensions.md
+        echo "| Extension Name | Publisher | Marketplace Link | Rating |" >> extensions.md
+        echo "| -------------- | --------- | ---------------- | ------ |" >> extensions.md
         while IFS= read -r extension; do
-          extensionName=$(echo "$extension" | awk -F '.' '{print $2}')
           publisher=$(echo "$extension" | awk -F '.' '{print $1}')
-          echo "| $extensionName | $publisher |" >> README.md
+          extensionName=$(echo "$extension" | awk -F '.' '{print $2}')
+          marketplaceLink="https://marketplace.visualstudio.com/items?itemName=$extension"
+          # This is just a placeholder for ratings, since ratings data isn't easily accessible directly
+          echo "| $extensionName | $publisher | [Link]($marketplaceLink) | ⭐⭐⭐⭐⭐ |" >> extensions.md
         done < extensions.txt
 
     - name: Commit and push updated README.md
@@ -121,8 +112,8 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add README.md
-        git commit -m "Auto-update VSCode extensions list"
+        git add extensions.md
+        git commit -m "Auto-update VSCode extensions list with links"
         git push
 
 

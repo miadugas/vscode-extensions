@@ -67,66 +67,67 @@
 | Extension Name | Publisher |
 | -------------- | --------- |
 
+
 # My VSCode Extensions
 
-| Extension Name | Publisher |
-| -------------- | --------- |
-| better-comments | aaron-bond |
-| bookmarks | alefragnani |
-| html-class-suggestions | anderseandersen |
-| browse-lite | antfu |
-| goto-alias | antfu |
-| vite | antfu |
-| astro-vscode | astro-build |
-| vscode-tailwindcss | bradlc |
-| simple-react-snippets | burkeholland |
-| nuxt-x-supabase-snippets | captaincrazy39 |
-| npm-intellisense | christian-kohler |
-| path-intellisense | christian-kohler |
-| vue-peek | dariofuzinato |
-| vscode-eslint | dbaeumer |
-| vscode-notes | dionmunk |
-| theme-dracula | dracula-theme |
-| es7-react-js-snippets | dsznajder |
-| vue2 | ducksoupdev |
-| gitlens | eamodio |
-| vscode-html-css | ecmel |
-| prettier-vscode | esbenp |
-| copilot | github |
-| copilot-chat | github |
-| vscode-auto-open-markdown-preview | hnw |
-| vue-snippets | hollowtree |
-| vscode-peacock | johnpapa |
-| git-graph | mhutchie |
-| regexsnippets | monish |
-| vscode-edge-devtools | ms-edgedevtools |
-| playwright | ms-playwright |
-| debugpy | ms-python |
-| python | ms-python |
-| vscode-pylance | ms-python |
-| vscode-typescript-next | ms-vscode |
-| color-highlight | naumovs |
-| mdc | nuxt |
-| nuxt-vscode-extentions | nuxtr |
-| nuxtr-vscode | nuxtr |
-| indent-rainbow | oderwat |
-| docthis | oouo-diogo-perdigao |
-| material-icon-theme | pkief |
-| postman-for-vscode | postman |
-| nuxt-snippets | praburangki |
-| vue-vscode-snippets | sdras |
-| semanticdiff | semanticdiff |
-| astro-snippets | sheltonlouis |
-| html5-boilerplate | sidthesloth |
-| code-spell-checker | streetsidesoftware |
-| vscode-supabase-extension | supabase |
-| dark-abyss | supapow |
-| svelte-vscode | svelte |
-| vscode-pets | tonybaloney |
-| vscode-mdx | unifiedjs |
-| vscode-icons | vscode-icons-team |
-| volar | vue |
-| console-ninja | wallabyjs |
-| javascriptsnippets | xabikos |
-| pretty-ts-errors | yoavbls |
-| html-css-class-completion | zignd |
+| Extension Name | Publisher | Marketplace Link |
+| -------------- | --------- | ---------------- |
+| better-comments | aaron-bond | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) |
+| bookmarks | alefragnani | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=alefragnani.bookmarks) |
+| html-class-suggestions | anderseandersen | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=anderseandersen.html-class-suggestions) |
+| browse-lite | antfu | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=antfu.browse-lite) |
+| goto-alias | antfu | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias) |
+| vite | antfu | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=antfu.vite) |
+| astro-vscode | astro-build | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode) |
+| vscode-tailwindcss | bradlc | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) |
+| simple-react-snippets | burkeholland | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets) |
+| nuxt-x-supabase-snippets | captaincrazy39 | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=captaincrazy39.nuxt-x-supabase-snippets) |
+| npm-intellisense | christian-kohler | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) |
+| path-intellisense | christian-kohler | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) |
+| vue-peek | dariofuzinato | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek) |
+| vscode-eslint | dbaeumer | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |
+| vscode-notes | dionmunk | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=dionmunk.vscode-notes) |
+| theme-dracula | dracula-theme | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) |
+| es7-react-js-snippets | dsznajder | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) |
+| vue2 | ducksoupdev | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ducksoupdev.vue2) |
+| gitlens | eamodio | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) |
+| vscode-html-css | ecmel | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) |
+| prettier-vscode | esbenp | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |
+| copilot | github | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=github.copilot) |
+| copilot-chat | github | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=github.copilot-chat) |
+| vscode-auto-open-markdown-preview | hnw | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview) |
+| vue-snippets | hollowtree | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets) |
+| vscode-peacock | johnpapa | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) |
+| git-graph | mhutchie | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) |
+| regexsnippets | monish | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=monish.regexsnippets) |
+| vscode-edge-devtools | ms-edgedevtools | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools) |
+| playwright | ms-playwright | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) |
+| debugpy | ms-python | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) |
+| python | ms-python | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-python.python) |
+| vscode-pylance | ms-python | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) |
+| vscode-typescript-next | ms-vscode | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next) |
+| color-highlight | naumovs | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) |
+| mdc | nuxt | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=nuxt.mdc) |
+| nuxt-vscode-extentions | nuxtr | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=nuxtr.nuxt-vscode-extentions) |
+| nuxtr-vscode | nuxtr | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=nuxtr.nuxtr-vscode) |
+| indent-rainbow | oderwat | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) |
+| docthis | oouo-diogo-perdigao | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis) |
+| material-icon-theme | pkief | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme) |
+| postman-for-vscode | postman | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=postman.postman-for-vscode) |
+| nuxt-snippets | praburangki | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=praburangki.nuxt-snippets) |
+| vue-vscode-snippets | sdras | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) |
+| semanticdiff | semanticdiff | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff) |
+| astro-snippets | sheltonlouis | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=sheltonlouis.astro-snippets) |
+| html5-boilerplate | sidthesloth | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate) |
+| code-spell-checker | streetsidesoftware | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) |
+| vscode-supabase-extension | supabase | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=supabase.vscode-supabase-extension) |
+| dark-abyss | supapow | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=supapow.dark-abyss) |
+| svelte-vscode | svelte | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) |
+| vscode-pets | tonybaloney | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) |
+| vscode-mdx | unifiedjs | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) |
+| vscode-icons | vscode-icons-team | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) |
+| volar | vue | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=vue.volar) |
+| console-ninja | wallabyjs | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=wallabyjs.console-ninja) |
+| javascriptsnippets | xabikos | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=xabikos.javascriptsnippets) |
+| pretty-ts-errors | yoavbls | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) |
+| html-css-class-completion | zignd | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=zignd.html-css-class-completion) |

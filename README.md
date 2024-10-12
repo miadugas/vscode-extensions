@@ -60,3 +60,8 @@
 | 38 | [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)            | Snippets that will supercharge your Vue workflow                    | sarah.drasner           | [sdras.vue-vscode-snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)            | ⭐⭐⭐⭐  | 🛠️ Essential  |
 | 39 | [Vue Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)                                      | Language Support for Vue                                           | Vue                     | [Vue.volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)                                        | ⭐⭐⭐⭐  | 🛠️ Essential  |
 
+
+# My VSCode Extensions
+
+| Extension Name | Publisher |
+| -------------- | --------- |

@@ -30,10 +30,14 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y code
 
+    - name: List VSCode Extensions
+      run: code --list-extensions > extensions.txt
+
+    - name: Check VSCode Extensions List
+      run: cat extensions.txt
+
     - name: Append Extensions to README.md
       run: |
-        code --list-extensions > extensions.txt
-        
         # Clear previous extensions section in README.md if it exists
         sed -i '/# My VSCode Extensions/,$d' README.md || true
         

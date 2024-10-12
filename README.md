@@ -66,3 +66,67 @@
 
 | Extension Name | Publisher |
 | -------------- | --------- |
+
+# My VSCode Extensions
+
+| Extension Name | Publisher |
+| -------------- | --------- |
+| better-comments | aaron-bond |
+| bookmarks | alefragnani |
+| html-class-suggestions | anderseandersen |
+| browse-lite | antfu |
+| goto-alias | antfu |
+| vite | antfu |
+| astro-vscode | astro-build |
+| vscode-tailwindcss | bradlc |
+| simple-react-snippets | burkeholland |
+| nuxt-x-supabase-snippets | captaincrazy39 |
+| npm-intellisense | christian-kohler |
+| path-intellisense | christian-kohler |
+| vue-peek | dariofuzinato |
+| vscode-eslint | dbaeumer |
+| vscode-notes | dionmunk |
+| theme-dracula | dracula-theme |
+| es7-react-js-snippets | dsznajder |
+| vue2 | ducksoupdev |
+| gitlens | eamodio |
+| vscode-html-css | ecmel |
+| prettier-vscode | esbenp |
+| copilot | github |
+| copilot-chat | github |
+| vscode-auto-open-markdown-preview | hnw |
+| vue-snippets | hollowtree |
+| vscode-peacock | johnpapa |
+| git-graph | mhutchie |
+| regexsnippets | monish |
+| vscode-edge-devtools | ms-edgedevtools |
+| playwright | ms-playwright |
+| debugpy | ms-python |
+| python | ms-python |
+| vscode-pylance | ms-python |
+| vscode-typescript-next | ms-vscode |
+| color-highlight | naumovs |
+| mdc | nuxt |
+| nuxt-vscode-extentions | nuxtr |
+| nuxtr-vscode | nuxtr |
+| indent-rainbow | oderwat |
+| docthis | oouo-diogo-perdigao |
+| material-icon-theme | pkief |
+| postman-for-vscode | postman |
+| nuxt-snippets | praburangki |
+| vue-vscode-snippets | sdras |
+| semanticdiff | semanticdiff |
+| astro-snippets | sheltonlouis |
+| html5-boilerplate | sidthesloth |
+| code-spell-checker | streetsidesoftware |
+| vscode-supabase-extension | supabase |
+| dark-abyss | supapow |
+| svelte-vscode | svelte |
+| vscode-pets | tonybaloney |
+| vscode-mdx | unifiedjs |
+| vscode-icons | vscode-icons-team |
+| volar | vue |
+| console-ninja | wallabyjs |
+| javascriptsnippets | xabikos |
+| pretty-ts-errors | yoavbls |
+| html-css-class-completion | zignd |

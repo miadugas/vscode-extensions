@@ -67,3 +67,8 @@
 
 | Extension Name | Publisher |
 | -------------- | --------- |
+
+# My VSCode Extensions
+
+| Extension Name | Publisher |
+| -------------- | --------- |

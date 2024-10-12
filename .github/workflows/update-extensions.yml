@@ -43,7 +43,7 @@ jobs:
         
         # Append the extensions list to README.md
         echo "" >> README.md
-        echo "# My VSCode Extensions" >> README.md
+        echo "# Mia VSCode Extensions" >> README.md
         echo "" >> README.md
         echo "| Extension Name | Publisher |" >> README.md
         echo "| -------------- | --------- |" >> README.md

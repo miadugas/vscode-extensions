@@ -39,7 +39,7 @@ jobs:
     - name: Append Extensions to README.md
       run: |
         # Clear previous extensions section in README.md if it exists
-        sed -i '/# My VSCode Extensions/,$d' README.md || true
+        sed -i '/# Mia VSCode Extensions/,$d' README.md || true
         
         # Append the extensions list to README.md
         echo "" >> README.md

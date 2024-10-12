@@ -61,6 +61,7 @@
 | 39 | [Vue Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)                                      | Language Support for Vue                                           | Vue                     | [Vue.volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)                                        | ⭐⭐⭐⭐  | 🛠️ Essential  |
 
 
+
 # My VSCode Extensions
 
 | Extension Name | Publisher |

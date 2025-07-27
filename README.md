@@ -108,6 +108,7 @@
 
 
 
+
 # My VSCode Extensions
 
 | Extension Name | Publisher | Marketplace Link |
@@ -145,6 +146,7 @@
 | debugpy | ms-python | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) |
 | python | ms-python | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-python.python) |
 | vscode-pylance | ms-python | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) |
+| vscode-python-envs | ms-python | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs) |
 | vscode-typescript-next | ms-vscode | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next) |
 | color-highlight | naumovs | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) |
 | mdc | nuxt | [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=nuxt.mdc) |
